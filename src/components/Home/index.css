@@ -1,5 +1,4 @@
 /* Write your CSS here */
-
 .app-home-bg-container {
   display: flex;
   flex-direction: column;
@@ -36,5 +35,11 @@
 @media screen and (max-width: 767px) {
   .app-home-bg-container {
     background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-sm-bg.png');
+  }
+  .app-home-teams-container {
+    width: 50vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
 }
