@@ -20,7 +20,7 @@ class LatestMatch extends Component {
     return (
       <div className="latest-match-container">
         <div>
-          <h1 className="latest-match-name"> {competingTeam} </h1>
+          <p className="latest-match-name"> {competingTeam} </p>
           <p className="latest-match-date"> {date} </p>
           <p className="latest-match-venue"> {venue} </p>
           <p className="latest-match-result"> {result} </p>
@@ -29,7 +29,7 @@ class LatestMatch extends Component {
           <img
             src={competingTeamLogo}
             className="oponent-team-logo"
-            alt={competingTeam}
+            alt={`latest match ${competingTeam}`}
           />
         </div>
         <div className="match-details">
