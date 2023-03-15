@@ -1,4 +1,5 @@
 // Write your code here
+// Write your code here
 import {Component} from 'react'
 import Loader from 'react-loader-spinner'
 import LatestMatch from '../LatestMatch'
@@ -62,7 +63,7 @@ class TeamMatches extends Component {
       <div className="team-matches-container">
         <img
           src={teamBannerUrl}
-          alt="team-match"
+          alt="team banner"
           className="team-match-image"
         />
         <h1 className="latest-matches-text"> Latest Matches </h1>
